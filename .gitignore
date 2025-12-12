@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.idea/
+.vscode/
+/.parcel-cache
+/.playwright
+playwright-report/
