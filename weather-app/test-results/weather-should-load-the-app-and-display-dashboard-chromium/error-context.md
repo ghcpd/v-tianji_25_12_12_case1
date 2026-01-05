@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Weather Dashboard" [level=1] [ref=e6]
+    - generic [ref=e8]:
+      - textbox "Search for a city..." [ref=e9]
+      - button "🔍" [disabled] [ref=e10]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - heading "New York" [level=1] [ref=e13]
+      - paragraph [ref=e14]: clear sky
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: ☀️
+          - generic [ref=e18]: 72°
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Feels like
+          - paragraph [ref=e21]: 70°
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: Humidity
+          - paragraph [ref=e25]: 65%
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: Wind Speed
+          - paragraph [ref=e28]: 8 m/s
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: Pressure
+          - paragraph [ref=e31]: 1013 hPa
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: Cloud Coverage
+          - paragraph [ref=e34]: "-"
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Sunrise
+          - paragraph [ref=e38]: 06:40 PM
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: Sunset
+          - paragraph [ref=e41]: 04:00 AM
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "5-Day Forecast" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46] [cursor=pointer]:
+            - paragraph [ref=e47]: 11:47 AM
+            - generic [ref=e49]: ☀️
+            - paragraph [ref=e50]: 71°
+            - paragraph [ref=e51]: Clear
+            - paragraph [ref=e52]: 💧 66% | 💨 9m/s
+          - generic [ref=e53] [cursor=pointer]:
+            - paragraph [ref=e54]: 12:47 PM
+            - generic [ref=e56]: ⛅
+            - paragraph [ref=e57]: 70°
+            - paragraph [ref=e58]: Clouds
+            - paragraph [ref=e59]: 💧 68% | 💨 10m/s
+          - generic [ref=e60] [cursor=pointer]:
+            - paragraph [ref=e61]: 01:47 PM
+            - generic [ref=e63]: ☁️
+            - paragraph [ref=e64]: 68°
+            - paragraph [ref=e65]: Clouds
+            - paragraph [ref=e66]: 💧 70% | 💨 11m/s
+          - generic [ref=e67] [cursor=pointer]:
+            - paragraph [ref=e68]: 02:47 PM
+            - generic [ref=e70]: 🌦️
+            - paragraph [ref=e71]: 66°
+            - paragraph [ref=e72]: Rain
+            - paragraph [ref=e73]: 💧 72% | 💨 12m/s
+          - generic [ref=e74] [cursor=pointer]:
+            - paragraph [ref=e75]: 03:47 PM
+            - generic [ref=e77]: 🌦️
+            - paragraph [ref=e78]: 65°
+            - paragraph [ref=e79]: Rain
+            - paragraph [ref=e80]: 💧 75% | 💨 13m/s
+          - generic [ref=e81] [cursor=pointer]:
+            - paragraph [ref=e82]: 04:47 PM
+            - generic [ref=e84]: 🌦️
+            - paragraph [ref=e85]: 64°
+            - paragraph [ref=e86]: Rain
+            - paragraph [ref=e87]: 💧 77% | 💨 14m/s
+      - generic [ref=e88]:
+        - heading "Temperature Trend" [level=2] [ref=e89]
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: 12:00 AM
+            - generic [ref=e93]:
+              - generic [ref=e94]: 60°
+              - generic [ref=e95]: 62°
+          - generic [ref=e96]:
+            - generic [ref=e97]: 3:00 AM
+            - generic [ref=e98]:
+              - generic [ref=e99]: 58°
+              - generic [ref=e100]: 60°
+          - generic [ref=e101]:
+            - generic [ref=e102]: 6:00 AM
+            - generic [ref=e103]:
+              - generic [ref=e104]: 57°
+              - generic [ref=e105]: 59°
+          - generic [ref=e106]:
+            - generic [ref=e107]: 9:00 AM
+            - generic [ref=e108]:
+              - generic [ref=e109]: 63°
+              - generic [ref=e110]: 65°
+          - generic [ref=e111]:
+            - generic [ref=e112]: 12:00 PM
+            - generic [ref=e113]:
+              - generic [ref=e114]: 70°
+              - generic [ref=e115]: 72°
+          - generic [ref=e116]:
+            - generic [ref=e117]: 3:00 PM
+            - generic [ref=e118]:
+              - generic [ref=e119]: 73°
+              - generic [ref=e120]: 75°
+          - generic [ref=e121]:
+            - generic [ref=e122]: 6:00 PM
+            - generic [ref=e123]:
+              - generic [ref=e124]: 68°
+              - generic [ref=e125]: 70°
+          - generic [ref=e126]:
+            - generic [ref=e127]: 9:00 PM
+            - generic [ref=e128]:
+              - generic [ref=e129]: 63°
+              - generic [ref=e130]: 65°
+        - generic [ref=e131]:
+          - generic [ref=e134]: Feels Like
+          - generic [ref=e137]: Actual Temperature
+  - contentinfo [ref=e138]:
+    - paragraph [ref=e139]: Weather Dashboard • Built with React & Tailwind CSS
+    - paragraph [ref=e140]: Using mock weather data for demonstration
+```
